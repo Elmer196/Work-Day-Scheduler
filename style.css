@@ -1,0 +1,259 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.container1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container1 textarea{
+ margin-left: .5%;
+ width: 70%;
+}
+
+.container1 button{
+  width: 8%;
+}
+
+.container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container2 textarea{
+ margin-left: .5%;
+ width: 70%;
+}
+
+.container2 button{
+  width: 8%;
+}
+
+.container3{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container3 textarea{
+ margin-left: .5%;
+ width: 70%;
+}
+
+.container3 button{
+  width: 8%;
+}
+
+.container4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container4 textarea{
+ margin-left: .5%;
+ width: 70%;
+}
+
+.container4 button{
+  width: 8%;
+}
+
+.container5{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container5 textarea{
+ margin-left: .5%;
+ width: 70%;
+}
+
+.container5 button{
+  width: 8%;
+}
+
+.container6{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container6 textarea{
+ margin-left: .5%;
+ width: 70%;
+}
+
+.container6 button{
+  width: 8%;
+}
+
+.container7{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container7 textarea{
+ margin-left: .5%;
+ width: 70%;
+}
+
+.container7 button{
+  width: 8%;
+}
+
+.container8{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container8 textarea{
+ margin-left: .5%;
+ width: 70%;
+}
+
+.container8 button{
+  width: 8%;
+}
+
+.container9{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container9 textarea{
+ margin-left: .5%;
+ width: 70%;
+}
+
+.container9 button{
+  width: 8%;
+}
+
+.row1 {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.row2 {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.row3 {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.row4 {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.row5 {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.row6 {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.row7 {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.row8 {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.row9 {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+footer{
+  text-align: center;
+  padding-top: 1%;
+}
