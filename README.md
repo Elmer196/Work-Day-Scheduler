@@ -14,5 +14,7 @@ Gray: Past time
 
 <img width="960" alt="schedule 1" src="https://user-images.githubusercontent.com/70598209/99161150-b81fe980-26b4-11eb-8c10-e3cfee152042.PNG">
 <img width="958" alt="schedule2" src="https://user-images.githubusercontent.com/70598209/99161151-b9511680-26b4-11eb-8404-37c982f76dfd.PNG">
+<img width="902" alt="schedule 3" src="https://user-images.githubusercontent.com/70598209/99194088-fe238e80-2742-11eb-8eb3-d56488d312ff.PNG">
+
 
 
