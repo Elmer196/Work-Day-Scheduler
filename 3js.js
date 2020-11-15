@@ -7,7 +7,7 @@ $(document).ready(function(){
     
   document.getElementById("text1").innerHTML = localStorage.getItem('set1');
 
-  if(dayTime.isSame(moment('09:00 AM', 'hh:mm A')) || dayTime.isBefore(moment('10:00 AM', 'hh:mm A'))){
+  if(dayTime.isAfter(moment('08:59 AM', 'hh:mm A')) && dayTime.isBefore(moment('10:00 AM', 'hh:mm A'))){
     $(".row1").addClass("present");
   }
 
@@ -37,7 +37,7 @@ $(document).ready(function(){
 
   document.getElementById("text2").innerHTML = localStorage.getItem('set2');
 
-  if(dayTime.isSame(moment('10:00 AM', 'hh:mm A')) || dayTime.isBefore(moment('11:00 AM', 'hh:mm A'))){
+  if(dayTime.isAfter(moment('09:59 AM', 'hh:mm A')) && dayTime.isBefore(moment('11:00 AM', 'hh:mm A'))){
     $(".row2").addClass("present");
   }
 
@@ -67,7 +67,7 @@ $(document).ready(function(){
 
   document.getElementById("text3").innerHTML = localStorage.getItem('set3');
 
-  if(dayTime.isSame(moment('11:00 AM', 'hh:mm A')) || dayTime.isBefore(moment('12:00 PM', 'hh:mm A'))){
+  if(dayTime.isAfter(moment('10:59 AM', 'hh:mm A')) && dayTime.isBefore(moment('12:00 PM', 'hh:mm A'))){
     $(".row3").addClass("present");
   }
 
@@ -97,7 +97,7 @@ $(document).ready(function(){
 
   document.getElementById("text4").innerHTML = localStorage.getItem('set4');
 
-  if(dayTime.isSame(moment('12:00 PM', 'hh:mm A')) || dayTime.isBefore(moment('01:00 PM', 'hh:mm A'))){
+  if(dayTime.isAfter(moment('11:59 PM', 'hh:mm A')) && dayTime.isBefore(moment('01:00 PM', 'hh:mm A'))){
     $(".row4").addClass("present");
   }
 
@@ -127,7 +127,7 @@ $(document).ready(function(){
 
   document.getElementById("text5").innerHTML = localStorage.getItem('set5');
 
-  if(dayTime.isSame(moment('01:00 PM', 'hh:mm A')) || dayTime.isBefore(moment('02:00 PM', 'hh:mm A'))){
+  if(dayTime.isAfter(moment('12:59 PM', 'hh:mm A')) && dayTime.isBefore(moment('02:00 PM', 'hh:mm A'))){
     $(".row5").addClass("present");
   }
 
@@ -157,7 +157,7 @@ $(document).ready(function(){
 
   document.getElementById("text6").innerHTML = localStorage.getItem('set6');
 
-  if(dayTime.isSame(moment('02:00 PM', 'hh:mm A')) || dayTime.isBefore(moment('03:00 PM', 'hh:mm A'))){
+  if(dayTime.isAfter(moment('01:59 PM', 'hh:mm A')) && dayTime.isBefore(moment('03:00 PM', 'hh:mm A'))){
     $(".row6").addClass("present");
   }
 
@@ -187,7 +187,7 @@ $(document).ready(function(){
 
   document.getElementById("text7").innerHTML = localStorage.getItem('set7');
 
-  if(dayTime.isSame(moment('03:00 PM', 'hh:mm A')) || dayTime.isBefore(moment('04:00 PM', 'hh:mm A'))){
+  if(dayTime.isAfter(moment('02:59 PM', 'hh:mm A')) && dayTime.isBefore(moment('04:00 PM', 'hh:mm A'))){
     $(".row7").addClass("present");
   }
 
@@ -217,7 +217,7 @@ $(document).ready(function(){
 
   document.getElementById("text8").innerHTML = localStorage.getItem('set8');
 
-  if(dayTime.isSame(moment('04:00 PM', 'hh:mm A')) || dayTime.isBefore(moment('05:00 PM', 'hh:mm A'))){
+  if(dayTime.isAfter(moment('03:59 PM', 'hh:mm A')) && dayTime.isBefore(moment('05:00 PM', 'hh:mm A'))){
     $(".row8").addClass("present");
   }
 
@@ -247,7 +247,7 @@ $(document).ready(function(){
 
   document.getElementById("text9").innerHTML = localStorage.getItem('set9');
 
-  if(dayTime.isSame(moment('05:00 PM', 'hh:mm A')) || dayTime.isBefore(moment('06:00 PM', 'hh:mm A'))){
+  if(dayTime.isAfter(moment('04:59 PM', 'hh:mm A')) && dayTime.isBefore(moment('06:00 PM', 'hh:mm A'))){
     $(".row9").addClass("present");
   }
 
