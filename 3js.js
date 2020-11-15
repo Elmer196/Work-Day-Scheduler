@@ -255,7 +255,7 @@ $(document).ready(function(){
     $(".row9").addClass("past");
   }
 
-  else if(dayTime.isBefore(moment('08:00 PM', 'hh:mm A'))){
+  else if(dayTime.isBefore(moment('05:00 PM', 'hh:mm A'))){
     $(".row9").addClass("future");
   }  
 
