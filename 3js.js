@@ -97,7 +97,7 @@ $(document).ready(function(){
 
   document.getElementById("text4").innerHTML = localStorage.getItem('set4');
 
-  if(dayTime.isAfter(moment('11:59 PM', 'hh:mm A')) && dayTime.isBefore(moment('01:00 PM', 'hh:mm A'))){
+  if(dayTime.isAfter(moment('11:59 AM', 'hh:mm A')) && dayTime.isBefore(moment('01:00 PM', 'hh:mm A'))){
     $(".row4").addClass("present");
   }
 
